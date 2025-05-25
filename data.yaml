@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 18
+names: ['0', 'Corrosion', 'Corrosion-detection', 'Crevice', 'Galvanic', 'High-corrosion', 'Low-corrosion', 'Medium-corrosion', 'Oxidation-Corrosion', 'Rust', 'cacat_korosi', 'clean', 'corroded-part', 'corrosion', 'moderate-corrosion', 'non-corrosion', 'rust', 'severe-corrosion']
+
+roboflow:
+  workspace: rust-r6xzj
+  project: rust-dataset-uk2zn
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rust-r6xzj/rust-dataset-uk2zn/dataset/1
